@@ -140,6 +140,8 @@ class Numeric
 	
    w
  end
+ 
+ alias :a_letras :to_words
 end
 
 class String

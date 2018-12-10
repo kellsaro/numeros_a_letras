@@ -2,8 +2,9 @@ Esta es una gema que agrega a la clase Numeric el método a_letras,
 que devuelve la expresión literal del número en idioma español.
 Existe un el alias to_words, para las personas de habla hispana
 que programan en inglés.
-Ej: 
 
+Ej: 
+~~~~
 $ irb
 >> require './lib/numeros_a_letras.rb'
 >> 100.a_letras
@@ -26,6 +27,7 @@ $ irb
 => "menos trescientos ochenta y nueve mil cuatrocientos setenta y cuatro millones novecientos mil"
 >> -38947490.a_letras
 => "menos treinta y ocho millones novecientos cuarenta y siete mil cuatrocientos noventa"
+~~~~
 
 Fue realizado con Ruby 1.8.\*, aunque debe funcionar en versiones posteriores
 
